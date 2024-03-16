@@ -1,0 +1,18 @@
+{
+  "name": "ldap2csv",
+  "homepage": "https://github.com/dg14/ldap2csv#readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ldap","csv"],
+  "author": "Dimitri Giardina <dimitri.giardina@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fast-csv/format": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ldap-async": "^2.1.1"
+  }
+}
